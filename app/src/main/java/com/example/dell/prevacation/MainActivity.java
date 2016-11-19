@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 downloadManager = (DownloadManager)  getSystemService(DOWNLOAD_SERVICE);
                 Uri uri = Uri.parse("http://aoal.org/Greek/ntgreekb/files/GreekAlphabetCharts.pdf");
                 DownloadManager.Request request = new DownloadManager.Request(uri)
-                        .setTitle("Download File")
+                        .setTitle("New File")
                         .setDescription("Hello World")
                         .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
 
