@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">batman</string>
+    <string name = "blue">#000000</string>
+</resources>
